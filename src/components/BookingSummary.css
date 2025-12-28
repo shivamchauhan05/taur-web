@@ -1,0 +1,127 @@
+.booking-summary {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 100px;
+}
+
+.booking-summary h3 {
+  color: #1a237e;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.summary-item svg {
+  color: #4fc3f7;
+  font-size: 1.2rem;
+  min-width: 24px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.item-subtitle {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.price-breakdown {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.price-breakdown h4 {
+  color: #1a237e;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.price-row.total {
+  border-top: 2px solid #1a237e;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  color: #1a237e;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.included-features {
+  margin-bottom: 2rem;
+}
+
+.included-features h4 {
+  color: #1a237e;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.included-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.included-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.included-features svg {
+  color: #4caf50;
+}
+
+.deposit-info {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.deposit-info p {
+  margin: 0;
+  color: #333;
+}
+
+.deposit-info strong {
+  color: #1a237e;
+}
+
+.deposit-info small {
+  color: #666;
+  font-size: 0.8rem;
+}
