@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="contact-info">
               <li>
                 <FaPhone />
-                <span>+91 98765 43210</span>
+                <span>+91 92209 28080</span>
               </li>
               <li>
                 <FaEnvelope />
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <FaMapMarkerAlt />
-                <span>123 Street, Mumbai, India</span>
+                <span>milk lachhi, Greater Noida, India</span>
               </li>
             </ul>
           </div>

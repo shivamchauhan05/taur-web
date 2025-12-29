@@ -4,7 +4,7 @@ import carsData from '../data/carsData';
 import './Cars.css';
 
 const Cars = () => {
-  // सारी कारें दिखाएं
+  
   const allCars = carsData;
 
   return (

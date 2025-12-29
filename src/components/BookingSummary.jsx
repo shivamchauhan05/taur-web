@@ -64,10 +64,7 @@ const BookingSummary = ({ car }) => {
         </ul>
       </div>
 
-      <div className="deposit-info">
-        <p>Security Deposit: <strong>₹5,000</strong></p>
-        <small>(Refundable upon safe return)</small>
-      </div>
+      
     </div>
   );
 };

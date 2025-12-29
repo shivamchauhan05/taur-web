@@ -22,7 +22,7 @@ const About = () => {
               <p>
                 Founded in 2010, CarTour started with a simple mission: to make car rentals 
                 accessible, affordable, and hassle-free for everyone. What began as a small 
-                fleet of 10 cars in one city has now grown to over 1000 vehicles across 
+                fleet of 2 cars in one city has now grown to over 10 vehicles across 
                 50+ cities nationwide.
               </p>
               <p>
@@ -74,15 +74,15 @@ const About = () => {
           <h2 className="section-title">By The Numbers</h2>
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-number">5000+</div>
+              <div className="stat-number">500+</div>
               <div className="stat-label">Happy Customers</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">1000+</div>
+              <div className="stat-number">10</div>
               <div className="stat-label">Cars in Fleet</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">50+</div>
+              <div className="stat-number">5+</div>
               <div className="stat-label">Cities Covered</div>
             </div>
             <div className="stat-card">

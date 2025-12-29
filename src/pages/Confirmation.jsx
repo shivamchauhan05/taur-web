@@ -209,13 +209,12 @@ const Confirmation = () => {
       ["Total Amount", `₹${bookingData.totalAmount}`, "", "", ""],
       ["Payment Method", bookingData.paymentMethod, "", "", ""],
       ["Driver", bookingData.driverRequired ? "Included" : "Self Drive", "", "", ""],
-      ["Security Deposit", "₹5,000 (Refundable)", "", "", ""],
       ["", "", "", "", ""],
       ["📞 Contact Information", "", "", "", ""],
-      ["CarTour Support", "+91 98765 43210", "", "", ""],
-      ["Email", "support@cartour.com", "", "", ""],
+      ["CarTour Support", "+91 92209 28080", "", "", ""],
+      ["Email", "chauhanshivam8836@gmail.com", "", "", ""],
       ["Website", "www.cartour.com", "", "", ""],
-      ["Emergency", "+91 91234 56789", "", "", ""]
+      ["Emergency", "+91 92209 28080", "", "", ""]
     ];
 
     const ws = XLSX.utils.aoa_to_sheet(worksheetData);
@@ -506,14 +505,10 @@ const Confirmation = () => {
               <div class="info-item">
                 <span class="info-label">Payment Method:</span>
                 <span class="info-value">${bookingData.paymentMethod}</span>
-              </div>
-              <div class="info-item">
-                <span class="info-label">Security Deposit:</span>
-                <span class="info-value">₹5,000 (Refundable)</span>
-              </div>
+             
               <div class="info-item">
                 <span class="info-label">Payment Status:</span>
-                <span class="info-value" style="color: #4CAF50; font-weight: bold;">PAID ✓</span>
+                <span class="info-value" style="color: #4CAF50; font-weight: bold;">UNPAID ✓</span>
               </div>
             </div>
           </div>
@@ -522,16 +517,15 @@ const Confirmation = () => {
             <h3 class="section-title">Important Notes</h3>
             <div class="terms">
               1. Please carry original ID proof and driving license at the time of pickup.<br>
-              2. Security deposit of ₹5,000 will be refunded after vehicle return and inspection.<br>
-              3. Free cancellation up to 24 hours before pickup time.<br>
-              4. Additional charges apply for extra kilometers and late returns.<br>
-              5. Please check the vehicle thoroughly before taking possession.<br>
+              2. Free cancellation up to 24 hours before pickup time.<br>
+              3. Additional charges apply for extra kilometers and late returns.<br>
+              4. Please check the vehicle thoroughly before taking possession.<br>
             </div>
           </div>
           
           <div class="footer">
             <p><strong>CarTour Customer Support</strong></p>
-            <p>📞 +91 98765 43210 | 📧 support@cartour.com</p>
+            <p>📞 +91 92209 28080 | 📧 chauhanshivam8836@gmail.com</p>
             <p>🌐 www.cartour.com | 🕒 24/7 Support Available</p>
             <p class="terms">
               This is a computer-generated receipt. No signature required.<br>
@@ -608,14 +602,13 @@ Distance: ${bookingData.estimatedDistance || 0} KMs
 -----------------
 Total Amount: ₹${bookingData.totalAmount}
 Payment Method: ${bookingData.paymentMethod}
-Driver: ${bookingData.driverRequired ? 'Included' : 'Self Drive'}
+Driver: ${bookingData.driverRequired ? 'Included' : ' Drive'}
 
 📞 IMPORTANT INFORMATION
 -----------------------
 1. Carry original ID proof & driving license
-2. Security deposit: ₹5,000 (refundable after inspection)
-3. Free cancellation 24 hours before pickup
-4. Contact support: +91 98765 43210
+2. Free cancellation 24 hours before pickup
+43 Contact support: +91 98765 43210
 
 We look forward to serving you!
 

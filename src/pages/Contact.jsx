@@ -64,14 +64,14 @@ const Contact = () => {
             <div className="contact-info-card">
               <FaPhone className="contact-icon" />
               <h3>Phone</h3>
-              <p>+91 12345 67890</p>
+              <p>+91 92209 28080</p>
               <p className="timing">Mon-Sun: 6 AM - 12 AM</p>
             </div>
             
             <div className="contact-info-card">
               <FaEnvelope className="contact-icon" />
               <h3>Email</h3>
-              <p>support@cartour.com</p>
+              <p>chauhanshivam8836@gmail.com</p>
               <p>bookings@cartour.com</p>
             </div>
             
@@ -170,23 +170,10 @@ const Contact = () => {
               </form>
             </div>
 
-            {/* Map & Quick Contact */}
+            {/*  Quick Contact */}
             <div className="contact-sidebar">
-              {/* Map */}
-              <div className="map-container">
-                <h3>Find Us Here</h3>
-                <div className="map-placeholder">
-                  <iframe
-                    title="CarTour Location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.711007588593!2d72.82820921490135!3d19.07568768708856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c6765d83a1%3A0x72e5e6e3b6a2b0a5!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1642345678901!5m2!1sen!2sin"
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
+  
+             
 
               {/* Quick Contact */}
               <div className="quick-contact">
@@ -230,42 +217,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Branches Section */}
-      <section className="branches-section">
-        <div className="container">
-          <h2 className="section-title">Our Branches</h2>
-          <div className="branches-grid">
-            <div className="branch-card">
-              <h3>Mumbai</h3>
-              <p>123 Business Street, 400001</p>
-              <p>Phone: +91 22 1234 5678</p>
-              <p>Email: mumbai@cartour.com</p>
-            </div>
-            
-            <div className="branch-card">
-              <h3>Delhi</h3>
-              <p>456 Connaught Place, 110001</p>
-              <p>Phone: +91 11 2345 6789</p>
-              <p>Email: delhi@cartour.com</p>
-            </div>
-            
-            <div className="branch-card">
-              <h3>Bangalore</h3>
-              <p>789 MG Road, 560001</p>
-              <p>Phone: +91 80 3456 7890</p>
-              <p>Email: bangalore@cartour.com</p>
-            </div>
-            
-            <div className="branch-card">
-              <h3>Chennai</h3>
-              <p>101 Mount Road, 600002</p>
-              <p>Phone: +91 44 4567 8901</p>
-              <p>Email: chennai@cartour.com</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Emergency Contact */}
       <section className="emergency-contact">
         <div className="container">
@@ -273,7 +224,7 @@ const Contact = () => {
             <h2>24/7 Emergency Support</h2>
             <p>For urgent assistance during your rental period</p>
             <div className="emergency-number">
-              <FaPhone /> +91 98765 43210
+              <FaPhone /> +91 92209 28080
             </div>
             <p className="emergency-note">Available round the clock for breakdowns, accidents, or any emergency situations.</p>
           </div>

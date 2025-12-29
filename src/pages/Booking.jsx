@@ -789,7 +789,8 @@ const Booking = () => {
               <h3>Booking Summary</h3>
               
               <div className="car-summary">
-                <img src={car.image} alt={car.name} />
+              <img src={car.image} alt={car.name}  />
+
                 <div>
                   <h4>{car.name}</h4>
                   <p>{car.seats} seats • {car.transmission} • {car.fuel}</p>

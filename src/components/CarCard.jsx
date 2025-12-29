@@ -27,7 +27,7 @@ const CarCard = ({ car }) => {
       {/* Card Header with Image */}
       <div className="car-card-header">
         <img src={car.image} alt={car.name} className="car-image" />
-        <div className="car-badge">{car.driverChargePerDay ? 'Driver Included' : 'Self Drive'}</div>
+        <div className="car-badge">{'Driver Included'}</div>
         <div className="car-rating-badge">
           <FaStar />
           <span>{car.rating}</span>
@@ -161,9 +161,7 @@ const CarCard = ({ car }) => {
         
         {/* Action Buttons */}
         <div className="action-buttons">
-          <Link to={`/car/${car.id}`} className="btn-details">
-            View Details
-          </Link>
+          
           <Link to={`/booking/${car.id}`} className="btn-book">
             Book Now
           </Link>

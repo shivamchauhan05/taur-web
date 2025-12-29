@@ -199,15 +199,16 @@
   flex-direction: column;
   gap: 15px;
   margin-bottom: 30px;
+  color: #333;
 }
 
 .social-link {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 15px;
+  padding: 45px;
   background: white;
-  border-radius: 8px;
+  border-radius: 30px;
   text-decoration: none;
   color: #333;
   font-weight: 600;
@@ -218,17 +219,23 @@
   transform: translateX(10px);
   color: #667eea;
 }
-
+.social-link.whatsapp {
+    color: #333;
+}
 .social-link.whatsapp:hover {
   background: #25d366;
   color: white;
 }
-
+.social-link.email{
+  color: #333;
+}
 .social-link.email:hover {
   background: #667eea;
   color: white;
 }
-
+.social-link.phone {
+  color: #333;
+}
 .social-link.phone:hover {
   background: #764ba2;
   color: white;
@@ -287,46 +294,6 @@
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
 }
-
-/* Branches Section */
-.branches-section {
-  padding: 80px 0;
-  background: #f8f9fa;
-}
-
-.branches-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.branch-card {
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  transition: all 0.3s;
-}
-
-.branch-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-}
-
-.branch-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.branch-card p {
-  color: #666;
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
-}
-
 /* Emergency Contact */
 .emergency-contact {
   padding: 80px 0;

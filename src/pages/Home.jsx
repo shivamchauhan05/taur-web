@@ -18,7 +18,7 @@ const Home = () => {
   ];
 
   // WhatsApp contact URL - Replace with your actual WhatsApp number
-  const whatsappNumber = '9195206802204'; // Example: 91 for India, followed by number
+  const whatsappNumber = '919220928080'; // Example: 91 for India, followed by number
   const whatsappMessage = encodeURIComponent("Hello! I'm interested in renting a car.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
